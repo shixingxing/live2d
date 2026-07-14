@@ -58,7 +58,36 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/Haru/
+    - assets/Haru/expressions/
+    - assets/Haru/Haru.2048/
+    - assets/Haru/motions/
+    - assets/Haru/sounds/
+    - assets/Hiyori/
+    - assets/Hiyori/Hiyori.2048/
+    - assets/Hiyori/motions/
+    - assets/Mao/
+    - assets/Mao/expressions/
+    - assets/Mao/Mao.2048/
+    - assets/Mao/motions/
+    - assets/Mark/
+    - assets/Mark/Mark.2048/
+    - assets/Mark/motions/
+    - assets/Natori/
+    - assets/Natori/exp/
+    - assets/Natori/motions/
+    - assets/Natori/Natori.2048/
+    - assets/Ren/
+    - assets/Ren/expressions/
+    - assets/Ren/motions/
+    - assets/Ren/Ren.2048/
+    - assets/Rice/
+    - assets/Rice/motions/
+    - assets/Rice/Rice.2048/
+    - assets/Wanko/
+    - assets/Wanko/motions/
+    - assets/Wanko/Wanko.1024/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
