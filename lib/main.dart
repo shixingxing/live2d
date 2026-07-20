@@ -184,21 +184,22 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               SizedBox(width: 8),
               FilledButton.icon(
-                onPressed: () => {playMotion(_slots[0], _models[0].motions[3])},
+                onPressed: () => {playMotion(_slots[0], _models[0].motions[4])},
                 label: Text('Motion 1'),
               ),
               SizedBox(width: 8),
               FilledButton.icon(
-                onPressed: () => {playMotion(_slots[0], _models[0].motions[4])},
+                onPressed: () => {playMotion(_slots[0], _models[0].motions[5])},
                 label: Text('Motion 2'),
               ),
               SizedBox(width: 8),
               FilledButton.icon(
-                onPressed: () => {playMotion(_slots[0], _models[0].motions[5])},
+                onPressed: () => {playMotion(_slots[0], _models[0].motions[6])},
                 label: Text('Motion 3'),
               ),
             ],
           ),
+          SizedBox(height: 8),
         ],
       ),
     );
