@@ -199,7 +199,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           ),
-          SizedBox(height: 8),
+          SizedBox(height: 20),
         ],
       ),
     );
