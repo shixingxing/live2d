@@ -34,7 +34,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  flutter_live2d: ^1.0.2
+#  flutter_live2d: ^1.0.2
+  flutter_live2d:
+      path: ../flutter_live2d
 
 
 dev_dependencies:
@@ -59,35 +61,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/Haru/
-    - assets/Haru/expressions/
-    - assets/Haru/Haru.2048/
-    - assets/Haru/motions/
-    - assets/Haru/sounds/
-    - assets/Hiyori/
-    - assets/Hiyori/Hiyori.2048/
-    - assets/Hiyori/motions/
-    - assets/Mao/
-    - assets/Mao/expressions/
-    - assets/Mao/Mao.2048/
-    - assets/Mao/motions/
-    - assets/Mark/
-    - assets/Mark/Mark.2048/
-    - assets/Mark/motions/
-    - assets/Natori/
-    - assets/Natori/exp/
-    - assets/Natori/motions/
-    - assets/Natori/Natori.2048/
-    - assets/Ren/
-    - assets/Ren/expressions/
-    - assets/Ren/motions/
-    - assets/Ren/Ren.2048/
-    - assets/Rice/
-    - assets/Rice/motions/
-    - assets/Rice/Rice.2048/
-    - assets/Wanko/
-    - assets/Wanko/motions/
-    - assets/Wanko/Wanko.1024/
+    - assets/models/mao/
+    - assets/models/mao/mao_pro.4096/
+    - assets/models/mao/motions/
+    - assets/models/mao/expressions/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
